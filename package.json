@@ -6,13 +6,15 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-scripts": "^2.1.1",
-    "homepage": "http://malindup.github.io/react-gh-pages"
+    "homepage": "http://malindup.github.io/Clicky-Game"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
